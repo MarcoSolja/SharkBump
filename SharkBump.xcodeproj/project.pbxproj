@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8838FB731BA75B37008630D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8838FB721BA75B37008630D6 /* AppDelegate.swift */; };
+		8838FB751BA75B37008630D6 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8838FB741BA75B37008630D6 /* GameScene.sks */; };
+		8838FB771BA75B37008630D6 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8838FB761BA75B37008630D6 /* GameScene.swift */; };
+		8838FB791BA75B37008630D6 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8838FB781BA75B37008630D6 /* GameViewController.swift */; };
+		8838FB7C1BA75B37008630D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8838FB7A1BA75B37008630D6 /* Main.storyboard */; };
+		8838FB7E1BA75B37008630D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8838FB7D1BA75B37008630D6 /* Assets.xcassets */; };
+		8838FB811BA75B37008630D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8838FB7F1BA75B37008630D6 /* LaunchScreen.storyboard */; };
+		8838FB8C1BA75B37008630D6 /* SharkBumpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8838FB8B1BA75B37008630D6 /* SharkBumpTests.swift */; };
+		8838FB971BA75B37008630D6 /* SharkBumpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8838FB961BA75B37008630D6 /* SharkBumpUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8838FB881BA75B37008630D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8838FB671BA75B37008630D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8838FB6E1BA75B37008630D6;
+			remoteInfo = SharkBump;
+		};
+		8838FB931BA75B37008630D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8838FB671BA75B37008630D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8838FB6E1BA75B37008630D6;
+			remoteInfo = SharkBump;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8838FB6F1BA75B37008630D6 /* SharkBump.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SharkBump.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8838FB721BA75B37008630D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8838FB741BA75B37008630D6 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		8838FB761BA75B37008630D6 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		8838FB781BA75B37008630D6 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		8838FB7B1BA75B37008630D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8838FB7D1BA75B37008630D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8838FB801BA75B37008630D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8838FB821BA75B37008630D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8838FB871BA75B37008630D6 /* SharkBumpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SharkBumpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8838FB8B1BA75B37008630D6 /* SharkBumpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharkBumpTests.swift; sourceTree = "<group>"; };
+		8838FB8D1BA75B37008630D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8838FB921BA75B37008630D6 /* SharkBumpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SharkBumpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8838FB961BA75B37008630D6 /* SharkBumpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharkBumpUITests.swift; sourceTree = "<group>"; };
+		8838FB981BA75B37008630D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8838FB6C1BA75B37008630D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8838FB841BA75B37008630D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8838FB8F1BA75B37008630D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8838FB661BA75B37008630D6 = {
+			isa = PBXGroup;
+			children = (
+				8838FB711BA75B37008630D6 /* SharkBump */,
+				8838FB8A1BA75B37008630D6 /* SharkBumpTests */,
+				8838FB951BA75B37008630D6 /* SharkBumpUITests */,
+				8838FB701BA75B37008630D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8838FB701BA75B37008630D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8838FB6F1BA75B37008630D6 /* SharkBump.app */,
+				8838FB871BA75B37008630D6 /* SharkBumpTests.xctest */,
+				8838FB921BA75B37008630D6 /* SharkBumpUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8838FB711BA75B37008630D6 /* SharkBump */ = {
+			isa = PBXGroup;
+			children = (
+				8838FB721BA75B37008630D6 /* AppDelegate.swift */,
+				8838FB741BA75B37008630D6 /* GameScene.sks */,
+				8838FB761BA75B37008630D6 /* GameScene.swift */,
+				8838FB781BA75B37008630D6 /* GameViewController.swift */,
+				8838FB7A1BA75B37008630D6 /* Main.storyboard */,
+				8838FB7D1BA75B37008630D6 /* Assets.xcassets */,
+				8838FB7F1BA75B37008630D6 /* LaunchScreen.storyboard */,
+				8838FB821BA75B37008630D6 /* Info.plist */,
+			);
+			path = SharkBump;
+			sourceTree = "<group>";
+		};
+		8838FB8A1BA75B37008630D6 /* SharkBumpTests */ = {
+			isa = PBXGroup;
+			children = (
+				8838FB8B1BA75B37008630D6 /* SharkBumpTests.swift */,
+				8838FB8D1BA75B37008630D6 /* Info.plist */,
+			);
+			path = SharkBumpTests;
+			sourceTree = "<group>";
+		};
+		8838FB951BA75B37008630D6 /* SharkBumpUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8838FB961BA75B37008630D6 /* SharkBumpUITests.swift */,
+				8838FB981BA75B37008630D6 /* Info.plist */,
+			);
+			path = SharkBumpUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8838FB6E1BA75B37008630D6 /* SharkBump */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8838FB9B1BA75B37008630D6 /* Build configuration list for PBXNativeTarget "SharkBump" */;
+			buildPhases = (
+				8838FB6B1BA75B37008630D6 /* Sources */,
+				8838FB6C1BA75B37008630D6 /* Frameworks */,
+				8838FB6D1BA75B37008630D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SharkBump;
+			productName = SharkBump;
+			productReference = 8838FB6F1BA75B37008630D6 /* SharkBump.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8838FB861BA75B37008630D6 /* SharkBumpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8838FB9E1BA75B37008630D6 /* Build configuration list for PBXNativeTarget "SharkBumpTests" */;
+			buildPhases = (
+				8838FB831BA75B37008630D6 /* Sources */,
+				8838FB841BA75B37008630D6 /* Frameworks */,
+				8838FB851BA75B37008630D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8838FB891BA75B37008630D6 /* PBXTargetDependency */,
+			);
+			name = SharkBumpTests;
+			productName = SharkBumpTests;
+			productReference = 8838FB871BA75B37008630D6 /* SharkBumpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8838FB911BA75B37008630D6 /* SharkBumpUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8838FBA11BA75B37008630D6 /* Build configuration list for PBXNativeTarget "SharkBumpUITests" */;
+			buildPhases = (
+				8838FB8E1BA75B37008630D6 /* Sources */,
+				8838FB8F1BA75B37008630D6 /* Frameworks */,
+				8838FB901BA75B37008630D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8838FB941BA75B37008630D6 /* PBXTargetDependency */,
+			);
+			name = SharkBumpUITests;
+			productName = SharkBumpUITests;
+			productReference = 8838FB921BA75B37008630D6 /* SharkBumpUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8838FB671BA75B37008630D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = msawyer;
+				TargetAttributes = {
+					8838FB6E1BA75B37008630D6 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					8838FB861BA75B37008630D6 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 8838FB6E1BA75B37008630D6;
+					};
+					8838FB911BA75B37008630D6 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 8838FB6E1BA75B37008630D6;
+					};
+				};
+			};
+			buildConfigurationList = 8838FB6A1BA75B37008630D6 /* Build configuration list for PBXProject "SharkBump" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8838FB661BA75B37008630D6;
+			productRefGroup = 8838FB701BA75B37008630D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8838FB6E1BA75B37008630D6 /* SharkBump */,
+				8838FB861BA75B37008630D6 /* SharkBumpTests */,
+				8838FB911BA75B37008630D6 /* SharkBumpUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8838FB6D1BA75B37008630D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8838FB751BA75B37008630D6 /* GameScene.sks in Resources */,
+				8838FB811BA75B37008630D6 /* LaunchScreen.storyboard in Resources */,
+				8838FB7E1BA75B37008630D6 /* Assets.xcassets in Resources */,
+				8838FB7C1BA75B37008630D6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8838FB851BA75B37008630D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8838FB901BA75B37008630D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8838FB6B1BA75B37008630D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8838FB771BA75B37008630D6 /* GameScene.swift in Sources */,
+				8838FB791BA75B37008630D6 /* GameViewController.swift in Sources */,
+				8838FB731BA75B37008630D6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8838FB831BA75B37008630D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8838FB8C1BA75B37008630D6 /* SharkBumpTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8838FB8E1BA75B37008630D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8838FB971BA75B37008630D6 /* SharkBumpUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8838FB891BA75B37008630D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8838FB6E1BA75B37008630D6 /* SharkBump */;
+			targetProxy = 8838FB881BA75B37008630D6 /* PBXContainerItemProxy */;
+		};
+		8838FB941BA75B37008630D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8838FB6E1BA75B37008630D6 /* SharkBump */;
+			targetProxy = 8838FB931BA75B37008630D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8838FB7A1BA75B37008630D6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8838FB7B1BA75B37008630D6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8838FB7F1BA75B37008630D6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8838FB801BA75B37008630D6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8838FB991BA75B37008630D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		8838FB9A1BA75B37008630D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8838FB9C1BA75B37008630D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SharkBump/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.msawyer.SharkBump;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8838FB9D1BA75B37008630D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SharkBump/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.msawyer.SharkBump;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8838FB9F1BA75B37008630D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = SharkBumpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.msawyer.SharkBumpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SharkBump.app/SharkBump";
+			};
+			name = Debug;
+		};
+		8838FBA01BA75B37008630D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SharkBumpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.msawyer.SharkBumpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SharkBump.app/SharkBump";
+			};
+			name = Release;
+		};
+		8838FBA21BA75B37008630D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = SharkBumpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.msawyer.SharkBumpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SharkBump;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		8838FBA31BA75B37008630D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SharkBumpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.msawyer.SharkBumpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SharkBump;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8838FB6A1BA75B37008630D6 /* Build configuration list for PBXProject "SharkBump" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8838FB991BA75B37008630D6 /* Debug */,
+				8838FB9A1BA75B37008630D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8838FB9B1BA75B37008630D6 /* Build configuration list for PBXNativeTarget "SharkBump" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8838FB9C1BA75B37008630D6 /* Debug */,
+				8838FB9D1BA75B37008630D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8838FB9E1BA75B37008630D6 /* Build configuration list for PBXNativeTarget "SharkBumpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8838FB9F1BA75B37008630D6 /* Debug */,
+				8838FBA01BA75B37008630D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8838FBA11BA75B37008630D6 /* Build configuration list for PBXNativeTarget "SharkBumpUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8838FBA21BA75B37008630D6 /* Debug */,
+				8838FBA31BA75B37008630D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8838FB671BA75B37008630D6 /* Project object */;
+}
