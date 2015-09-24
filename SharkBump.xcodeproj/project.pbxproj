@@ -16,6 +16,12 @@
 		8838FB811BA75B37008630D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8838FB7F1BA75B37008630D6 /* LaunchScreen.storyboard */; };
 		8838FB8C1BA75B37008630D6 /* SharkBumpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8838FB8B1BA75B37008630D6 /* SharkBumpTests.swift */; };
 		8838FB971BA75B37008630D6 /* SharkBumpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8838FB961BA75B37008630D6 /* SharkBumpUITests.swift */; };
+		8838FBAB1BA76A33008630D6 /* DolphinLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = 8838FBA51BA76A33008630D6 /* DolphinLeft.png */; settings = {ASSET_TAGS = (); }; };
+		8838FBAC1BA76A33008630D6 /* DolphinRight.png in Resources */ = {isa = PBXBuildFile; fileRef = 8838FBA61BA76A33008630D6 /* DolphinRight.png */; settings = {ASSET_TAGS = (); }; };
+		8838FBAD1BA76A33008630D6 /* BloodLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = 8838FBA71BA76A33008630D6 /* BloodLeft.png */; settings = {ASSET_TAGS = (); }; };
+		8838FBAE1BA76A33008630D6 /* BloodRight.png in Resources */ = {isa = PBXBuildFile; fileRef = 8838FBA81BA76A33008630D6 /* BloodRight.png */; settings = {ASSET_TAGS = (); }; };
+		8838FBAF1BA76A33008630D6 /* sharkLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = 8838FBA91BA76A33008630D6 /* sharkLeft.png */; settings = {ASSET_TAGS = (); }; };
+		8838FBB01BA76A33008630D6 /* sharkRight.png in Resources */ = {isa = PBXBuildFile; fileRef = 8838FBAA1BA76A33008630D6 /* sharkRight.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,13 @@
 		8838FB921BA75B37008630D6 /* SharkBumpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SharkBumpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8838FB961BA75B37008630D6 /* SharkBumpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharkBumpUITests.swift; sourceTree = "<group>"; };
 		8838FB981BA75B37008630D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8838FBA51BA76A33008630D6 /* DolphinLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DolphinLeft.png; sourceTree = "<group>"; };
+		8838FBA61BA76A33008630D6 /* DolphinRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DolphinRight.png; sourceTree = "<group>"; };
+		8838FBA71BA76A33008630D6 /* BloodLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BloodLeft.png; sourceTree = "<group>"; };
+		8838FBA81BA76A33008630D6 /* BloodRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BloodRight.png; sourceTree = "<group>"; };
+		8838FBA91BA76A33008630D6 /* sharkLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sharkLeft.png; sourceTree = "<group>"; };
+		8838FBAA1BA76A33008630D6 /* sharkRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sharkRight.png; sourceTree = "<group>"; };
+		8838FBB11BA856AB008630D6 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +94,7 @@
 		8838FB661BA75B37008630D6 = {
 			isa = PBXGroup;
 			children = (
+				8838FBB11BA856AB008630D6 /* MyPlayground.playground */,
 				8838FB711BA75B37008630D6 /* SharkBump */,
 				8838FB8A1BA75B37008630D6 /* SharkBumpTests */,
 				8838FB951BA75B37008630D6 /* SharkBumpUITests */,
@@ -109,6 +123,7 @@
 				8838FB7D1BA75B37008630D6 /* Assets.xcassets */,
 				8838FB7F1BA75B37008630D6 /* LaunchScreen.storyboard */,
 				8838FB821BA75B37008630D6 /* Info.plist */,
+				8838FBA41BA769E1008630D6 /* Supporting Files */,
 			);
 			path = SharkBump;
 			sourceTree = "<group>";
@@ -129,6 +144,19 @@
 				8838FB981BA75B37008630D6 /* Info.plist */,
 			);
 			path = SharkBumpUITests;
+			sourceTree = "<group>";
+		};
+		8838FBA41BA769E1008630D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8838FBA51BA76A33008630D6 /* DolphinLeft.png */,
+				8838FBA61BA76A33008630D6 /* DolphinRight.png */,
+				8838FBA71BA76A33008630D6 /* BloodLeft.png */,
+				8838FBA81BA76A33008630D6 /* BloodRight.png */,
+				8838FBA91BA76A33008630D6 /* sharkLeft.png */,
+				8838FBAA1BA76A33008630D6 /* sharkRight.png */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,10 +262,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8838FBAD1BA76A33008630D6 /* BloodLeft.png in Resources */,
 				8838FB751BA75B37008630D6 /* GameScene.sks in Resources */,
+				8838FBAC1BA76A33008630D6 /* DolphinRight.png in Resources */,
 				8838FB811BA75B37008630D6 /* LaunchScreen.storyboard in Resources */,
+				8838FBAF1BA76A33008630D6 /* sharkLeft.png in Resources */,
 				8838FB7E1BA75B37008630D6 /* Assets.xcassets in Resources */,
 				8838FB7C1BA75B37008630D6 /* Main.storyboard in Resources */,
+				8838FBAB1BA76A33008630D6 /* DolphinLeft.png in Resources */,
+				8838FBB01BA76A33008630D6 /* sharkRight.png in Resources */,
+				8838FBAE1BA76A33008630D6 /* BloodRight.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
